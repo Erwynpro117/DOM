@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    max-width: 400px;
+    padding: 0.8rem, 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: chartreuse;
+    color: thistle;
+    box-shadow: 8 4px 0 0 darkcyan;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: antiquewhite;
+    box-shadow: 0 0 0 0;
+}

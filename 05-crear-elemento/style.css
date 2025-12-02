@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.contenedor {
+    background-color: darkblue;
+    padding: 24px;
+    max-width: 400px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.subtitulo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: antiquewhite;
+}
+
+.peliculas {
+    list-style: none;
+}
+
+.pelicula {
+    padding: .8rem .5rem;
+    color: bisque;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.fondo-uno{
+    background-color: burlywood;
+}
+
+.fondo-uno:hover,
+.fondo-dos:hover{
+    background-color: black;
+}
+
+.fondo-dos{
+    background-color: cadetblue;
+}
+
